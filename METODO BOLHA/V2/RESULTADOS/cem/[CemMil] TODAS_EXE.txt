@@ -24,12 +24,13 @@ EXECUÇÃO 3
 
  Performance counter stats for 'system wide':
 
-            112,73 Joules power/energy-pkg/                                                     
-     6.739.921.747        duration_time                                                         
-     7.080.000.000        user_time                                                             
-        60.000.000        system_time                                                           
+            469,26 Joules power/energy-pkg/                                                     
+    27.431.485.320        duration_time                                                         
+    28.750.000.000        user_time                                                             
+       240.000.000        system_time                                                           
 
-       6,740051825 seconds time elapsed
+      27,431534488 seconds time elapsed
+
 
 EXECUÇÃO 4
 
