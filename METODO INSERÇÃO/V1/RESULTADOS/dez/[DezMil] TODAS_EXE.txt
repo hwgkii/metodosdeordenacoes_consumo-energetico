@@ -1,0 +1,110 @@
+EXECUÇÃO 1
+
+ Performance counter stats for 'system wide':
+
+              1,67 Joules power/energy-pkg/                                                     
+       104.317.615        duration_time                                                         
+       110.000.000        user_time                                                             
+                 0        system_time                                                           
+
+       0,104371572 seconds time elapsed
+
+EXECUÇÃO 2
+
+ Performance counter stats for 'system wide':
+
+              1,71 Joules power/energy-pkg/                                                     
+       104.706.009        duration_time                                                         
+       100.000.000        user_time                                                             
+        20.000.000        system_time                                                           
+
+       0,104706294 seconds time elapsed
+
+EXECUÇÃO 3
+
+ Performance counter stats for 'system wide':
+
+              1,69 Joules power/energy-pkg/                                                     
+       105.142.322        duration_time                                                         
+       100.000.000        user_time                                                             
+        10.000.000        system_time                                                           
+
+       0,105193589 seconds time elapsed
+
+EXECUÇÃO 4
+
+ Performance counter stats for 'system wide':
+
+              1,72 Joules power/energy-pkg/                                                     
+       105.367.365        duration_time                                                         
+        90.000.000        user_time                                                             
+                 0        system_time                                                           
+
+       0,105377342 seconds time elapsed
+
+EXECUÇÃO 5
+
+ Performance counter stats for 'system wide':
+
+              1,67 Joules power/energy-pkg/                                                     
+       104.373.634        duration_time                                                         
+       110.000.000        user_time                                                             
+                 0        system_time                                                           
+
+       0,104431710 seconds time elapsed
+
+EXECUÇÃO 6
+
+ Performance counter stats for 'system wide':
+
+              1,68 Joules power/energy-pkg/                                                     
+       113.784.447        duration_time                                                         
+       110.000.000        user_time                                                             
+                 0        system_time                                                           
+
+       0,113784188 seconds time elapsed
+
+EXECUÇÃO 7
+
+ Performance counter stats for 'system wide':
+
+              1,68 Joules power/energy-pkg/                                                     
+       104.631.322        duration_time                                                         
+       120.000.000        user_time                                                             
+                 0        system_time                                                           
+
+       0,104687469 seconds time elapsed
+
+EXECUÇÃO 8
+
+ Performance counter stats for 'system wide':
+
+              1,69 Joules power/energy-pkg/                                                     
+       104.620.158        duration_time                                                         
+       100.000.000        user_time                                                             
+                 0        system_time                                                           
+
+       0,104656784 seconds time elapsed
+
+EXECUÇÃO 9
+
+ Performance counter stats for 'system wide':
+
+              1,68 Joules power/energy-pkg/                                                     
+       103.961.991        duration_time                                                         
+       100.000.000        user_time                                                             
+        10.000.000        system_time                                                           
+
+       0,103979065 seconds time elapsed
+
+EXECUÇÃO 10
+
+ Performance counter stats for 'system wide':
+
+              2,00 Joules power/energy-pkg/                                                     
+       106.049.313        duration_time                                                         
+       150.000.000        user_time                                                             
+        10.000.000        system_time                                                           
+
+       0,106093645 seconds time elapsed
+
