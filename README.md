@@ -46,42 +46,58 @@ O duration_time representa o tempo decorrido da execução observada. O user_tim
 
 As tabelas abaixo resume as médias das dez execuções por algoritmo e tamanho.
 
-Bolha
-N	Energia	Tempo Exec. (ms)	Tempo CPU (ms)	Potência Exec.	Potência CPU
-10.000	5,807	351,9	372	0,0165	0,0157
-50.000	155,268	9.346,7	9.937	0,0166	0,0156
-100.000	627,578	37.700	39.786	0,0166	0,0158
-Bolha V2
-N	Energia	Tempo Exec. (ms)	Tempo CPU (ms)	Potência Exec.	Potência CPU
-10.000	4,16	244,3	267	0,0170	0,0158
-50.000	112,755	6.740,8	7.122	0,0167	0,0158
-100.000	460,63	27.362,2	28.847	0,0168	0,0160
+### Bolha
+
+| N | Energia | Tempo Exec. (ms) | Tempo CPU (ms) | Potência Exec. | Potência CPU |
+|:---:|---:|---:|---:|---:|---:|
+| 10.000 | 5,807 | 351,9 | 372 | 0,0165 | 0,0157 |
+| 50.000 | 155,268 | 9.346,7 | 9.937 | 0,0166 | 0,0156 |
+| 100.000 | 627,578 | 37.700 | 39.786 | 0,0166 | 0,0158 |
+
+### Bolha V2
+
+| N | Energia | Tempo Exec. (ms) | Tempo CPU (ms) | Potência Exec. | Potência CPU |
+|:---:|---:|---:|---:|---:|---:|
+| 10.000 | 4,16 | 244,3 | 267 | 0,0170 | 0,0158 |
+| 50.000 | 112,755 | 6.740,8 | 7.122 | 0,0167 | 0,0158 |
+| 100.000 | 460,63 | 27.362,2 | 28.847 | 0,0168 | 0,0160 |
 
 Nos 10.000 elementos, Bubble V1 consumiu 5,807 J contra 4,160 J da V2, uma redução de 28,4%. Em 50.000 elementos, a redução foi de 27,4%, e em 100.000, de 26,6%. O ganho é consistente porque a V2 elimina comparações no final de cada passagem, mas continua sendo um algoritmo quadrático.
 
-Seleção
-N	Energia	Tempo Exec. (ms)	Tempo CPU (ms)	Potência Exec.	Potência CPU
-10.000	1,658	106,1	111	0,0156	0,0151
-50.000	39,675	2.457,1	2.612	0,0161	0,0152
-100.000	157,669	9.772,7	10.334	0,0161	0,0153
-Seleção V2
-N	Energia	Tempo Exec. (ms)	Tempo CPU (ms)	Potência Exec.	Potência CPU
-10.000	0,169	10,7	14	0,0161	0,0135
-50.000	0,90	49,4	72	0,0182	0,0132
-100.000	1,779	98,1	134,6	0,0181	0,0135
+### Seleção
+
+| N | Energia | Tempo Exec. (ms) | Tempo CPU (ms) | Potência Exec. | Potência CPU |
+|:---:|---:|---:|---:|---:|---:|
+| 10.000 | 1,658 | 106,1 | 111 | 0,0156 | 0,0151 |
+| 50.000 | 39,675 | 2.457,1 | 2.612 | 0,0161 | 0,0152 |
+| 100.000 | 157,669 | 9.772,7 | 10.334 | 0,0161 | 0,0153 |
+
+### Seleção V2
+
+| N | Energia | Tempo Exec. (ms) | Tempo CPU (ms) | Potência Exec. | Potência CPU |
+|:---:|---:|---:|---:|---:|---:|
+| 10.000 | 0,169 | 10,7 | 14 | 0,0161 | 0,0135 |
+| 50.000 | 0,90 | 49,4 | 72 | 0,0182 | 0,0132 |
+| 100.000 | 1,779 | 98,1 | 134,6 | 0,0181 | 0,0135 |
+
 
 No Selection Sort, a V1 consumiu 1,658 J, 39,675 J e 157,669 J, enquanto a V2 consumiu 0,169 J, 0,900 J e 1,779 J. As reduções correspondentes são 89,8%, 97,7% e 98,9%. O tempo acompanha o mesmo fenômeno, para 100.000 elementos, 9.772,7 ms na V1 contra 98,1 ms na V2. O aumento de dez vezes no tamanho da entrada produz crescimento próximo de cem vezes na versão O(n²), mas aproximadamente dez vezes na versão O(n log n).
 
-Inserção
-N	Energia	Tempo Exec. (ms)	Tempo CPU (ms)	Potência Exec.	Potência CPU
-10.000	1,719	105,2	124	0,0163	0,0148
-50.000	41,862	2.544,2	2.711	0,0165	0,0154
-100.000	166,741	10.135,4	10.708	0,0165	0,0156
-Inserção V2
-N	Energia	Tempo Exec. (ms)	Tempo CPU (ms)	Potência Exec.	Potência CPU
-10.000	1,021	63,6	65	0,0161	0,0159
-50.000	24,693	1.507,5	1.625	0,0164	0,0152
-100.000	97,949	5.980	6.354	0,0164	0,0154
+### Inserção
+
+| N | Energia | Tempo Exec. (ms) | Tempo CPU (ms) | Potência Exec. | Potência CPU |
+|:---:|---:|---:|---:|---:|---:|
+| 10.000 | 1,719 | 105,2 | 124 | 0,0163 | 0,0148 |
+| 50.000 | 41,862 | 2.544,2 | 2.711 | 0,0165 | 0,0154 |
+| 100.000 | 166,741 | 10.135,4 | 10.708 | 0,0165 | 0,0156 |
+
+### Inserção V2
+
+| N | Energia | Tempo Exec. (ms) | Tempo CPU (ms) | Potência Exec. | Potência CPU |
+|:---:|---:|---:|---:|---:|---:|
+| 10.000 | 1,021 | 63,6 | 65 | 0,0161 | 0,0159 |
+| 50.000 | 24,693 | 1.507,5 | 1.625 | 0,0164 | 0,0152 |
+| 100.000 | 97,949 | 5.980 | 6.354 | 0,0164 | 0,0154 |
 
 No Insertion Sort, a diferença foi maior: 40,6%, 41,0% e 41,3% de redução energética para 10.000, 50.000 e 100.000 elementos. O padrão acompanha a mudança de implementação, em vez de trocar repetidamente pares adjacentes, a V2 desloca uma sequência e realiza uma colocação final. Então a classe assintótica não muda, mas a quantidade de movimentações diminui.
 
